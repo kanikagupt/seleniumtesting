@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting browser]]>
+    </line>
+    <line>
+      <![CDATA[OrangeHRM application opened]]>
+    </line>
+    <line>
+      <![CDATA[Entering username: Admin]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Login button]]>
+    </line>
+    <line>
+      <![CDATA[Checking dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Login verification successful - Dashboard opened]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-28T15:30:54 IST" name="Default suite" finished-at="2026-09-28T15:31:13 IST" duration-ms="18796">
+    <groups>
+    </groups>
+    <test started-at="2026-09-28T15:30:54 IST" name="Default test" finished-at="2026-09-28T15:31:13 IST" duration-ms="18796">
+      <class name="test1.Lab9">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test1.Lab9@45752059]" started-at="2026-09-28T15:30:55 IST" name="beforeMethod" finished-at="2026-09-28T15:31:07 IST" duration-ms="12653" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting browser]]>
+            </line>
+            <line>
+              <![CDATA[OrangeHRM application opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test1.Lab9@45752059]" started-at="2026-09-28T15:31:07 IST" name="loginTest" data-provider="dp" finished-at="2026-09-28T15:31:12 IST" duration-ms="4987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering username: Admin]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Login button]]>
+            </line>
+            <line>
+              <![CDATA[Checking dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Login verification successful - Dashboard opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test1.Lab9@45752059]" started-at="2026-09-28T15:31:12 IST" name="afterMethod" finished-at="2026-09-28T15:31:13 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test1.Lab9 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
