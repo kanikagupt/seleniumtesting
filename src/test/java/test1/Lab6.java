@@ -17,7 +17,7 @@ public class Lab6 {
 	    public static void main(String[] args) {
 	 
 	        
-	        String email = "kanikagupta4245.in@gmail.com";
+	        String email = "kanikagupta4245@gmail.com";
 	        String password = "KNS@11";
 	 
 	        WebDriverManager.chromedriver().setup();
